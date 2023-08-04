@@ -1,0 +1,20 @@
+[
+	{
+		"_id": "5d7a514b5d2c12c7449be210",
+		"customer": "5d7a514b5d2c12c7449be310", 
+		"createdBy": "5d7a514b5d2c12c7449be010",
+        "type": "Statique",
+		"name": "Employées",
+		"description": "Entrer dans ce tableaux toutes les infos concernant les employées",
+		"columns": ["Cafat", "nom", "prénom","taux horraire"  ]
+    },
+    {
+        "_id": "5d7a514b5d2c12c7449be810",
+        "customer": "5d7a514b5d2c12c7449be310",
+        "createdBy": "5d7a514b5d2c12c7449be010",
+        "type": "Horodaté",
+        "name": "Budget heure client",
+        "description": "Budget heure client",
+        "columns": ["client", "heures", "tarif unitaire"]
+      }
+]

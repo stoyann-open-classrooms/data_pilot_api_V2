@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
+    "xss-clean": "^0.1.4"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "jpmb_api_v2",
+  "version": "1.0.0",
+  "description": "API version 2 DATA PILOT NC",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "VELTEN Stoyann",
+  "license": "ISC"
+}
